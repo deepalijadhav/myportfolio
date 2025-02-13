@@ -1,0 +1,59 @@
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Build output
+dist/
+!.well-known/
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs
+logs
+*.log
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+npm-debug.log*
+output.log
+lerna-debug.log
+.DS_Store
+Thumbs.db
+
+# Vite
+.vite/
+.env.local
+.env.*.local
+
+# Test-related files
+coverage/
+tests/output/
+jest.cache/
+jest/
+.vitest/
+
+# Linting & SonarQube
+.eslintcache
+.sonarlint/
+
+# Husky hooks (optional, if you use them)
+.husky/_/
+
+# Local IDE settings
+*.local
+*.history
